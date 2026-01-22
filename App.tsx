@@ -2,9 +2,9 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { LESSONS, HEROES, BACKGROUNDS, BADGES, STAGE_WIDTH, STAGE_HEIGHT, CostumeDef } from './constants';
 import { LessonType, SpriteState, Block } from './types';
-import Stage from './components/Stage';
-import BlockLibrary from './components/BlockLibrary';
-import GeminiTutor from './components/GeminiTutor';
+import Stage from './components/Stage.tsx';
+import BlockLibrary from './components/BlockLibrary.tsx';
+import GeminiTutor from './components/GeminiTutor.tsx';
 
 const App: React.FC = () => {
   // Navigation State
